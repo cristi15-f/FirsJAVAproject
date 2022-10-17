@@ -50,6 +50,15 @@ public class Main {
         float a = substract(x, y);
         System.out.println(a);
 
+        float b = multiplication(x, y);
+        System.out.println(b);
+
+        double c = divide(x, y);
+        System.out.println(c);
+
+        double d = module(x, y);
+        System.out.println(d);
+
 
     }
         public static int sum(int first, int second) {
@@ -61,4 +70,26 @@ public class Main {
             float result = first - second;
             return result;
         }
+
+
+        public static float multiplication (float first, float second){
+        float result = first * second;
+        return result;
+        }
+
+        public static double divide (double first, double second){
+            double result = first / second;
+            return result;
+        }
+
+
+    public static double module (double first, double second) {
+        double result = first%second;
+        return result;
+
+    }
+
+
+
+
 }
